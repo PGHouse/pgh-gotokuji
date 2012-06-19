@@ -3,13 +3,37 @@ body {
     font-family : Meiryo UI;
 }
 
+#header {
+
+}
+
 #container {
     text-align : center;
 }
 
-h1 {
-    font-size : 30px;
-    color     : #008800;
+#footer {
+
 }
 
+.footer {
+    color         : #0000cd; 
+    background    : #e0ffff;
+    border-radius : 20px;
+    padding       : 5px;
+}
 
+h1 {
+    font-size     : 30px;
+    color         : #008800;
+    background    : #f0fff0;
+    border-radius : 20px;
+    padding       : 5px 5px 5px 10px;
+}
+
+a {
+    color : #00C6FF;
+}
+
+a:hover {
+    color : #0000ff;
+}
