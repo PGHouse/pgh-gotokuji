@@ -4,12 +4,15 @@ body {
 }
 
 #header {
+	
 
 }
 
 #container {
     text-align : center;
+　　 background-image: url('photo01.png');
 }
+
 
 #footer {
 
