@@ -1,16 +1,79 @@
 body {
+    background  : #1049a9;
+    color       : #fff;
     font-size   : 14px;
     font-family : Meiryo UI;
 }
 
-#header {
-	
+a {
+    text-decoration : none;
+    color           : #00C6FF;
+}
 
+a:hover {
+    color : #00ffff;
+}
+
+ul {
+    list-style : none;
+}
+
+li {
+    float : left;
+}
+
+img {
+    margin : 10px;
+}
+
+h1 {
+    font-size     : 30px;
+    color         : #fff;
+    padding       : 5px;
+    margin        : 0px;
+}
+
+h1 a {
+    text-decoration : none;
+    color           : #fff;
+}
+
+h1 a:hover {
+    color :00ffff;
+}
+
+h2 {
+    font-size : 20px;
+    color     : #fff;
+    padding   : 5px;
+    margin    : 0px;
+}
+
+h2 a {
+    text-decoration : none;
+    color           : #fff;
+}
+
+h2 a:hover {
+    color :00ffff;
+}
+
+
+
+/******************
+ * original class *
+ ******************/
+#header {
+    width  : 1000px;
+    height : 600px;
+    margin : auto;
+    color         : #fff;
+    background    : #052c6e;
+    border-radius : 20px;
 }
 
 #container {
-    text-align : center;
-　　 background-image: url('photo01.png');
+   text-align : center;
 }
 
 
@@ -19,24 +82,11 @@ body {
 }
 
 .footer {
-    color         : #0000cd; 
-    background    : #e0ffff;
+    width         : 1000px;
+    color         : #fff; 
+    text-align    : center;
+    background    : #052c6e;
     border-radius : 20px;
+    margin        : 10px auto;
     padding       : 5px;
-}
-
-h1 {
-    font-size     : 30px;
-    color         : #008800;
-    background    : #f0fff0;
-    border-radius : 20px;
-    padding       : 5px 5px 5px 10px;
-}
-
-a {
-    color : #00C6FF;
-}
-
-a:hover {
-    color : #0000ff;
 }
