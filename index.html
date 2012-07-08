@@ -22,8 +22,19 @@
     </script>
 
     <script>
+    var i = 1;
     $(function(){
-
+        setInterval(changeImg, 5000);
+        function changeImg(){
+            $('#topImg').animate({'opacity':'0'}, 500, function(){
+                $('#topImg').attr('src', 'img/tops/pgh_top_00' + i + '.png').animate({'opacity':'1'}, 500);
+            });
+            if (i <= 7) {
+                i++;
+            } else {
+                i = 1;
+            }
+        }
     });
     </script>
 
@@ -46,7 +57,7 @@
 </div>
 <div id="content">
     <div class="elem center left">
-        <img src="img/logos/pgh_top_001.png" widht="480" height="360">
+        <img id="topImg" src="img/tops/pgh_top_001.png" widht="480" height="360">
         <div class="page-contents-line">
             <a href="index.html">Home</a>｜
             <a href="member.html">Member</a>｜
@@ -56,7 +67,8 @@
             <a href="social.html">Social</a>｜
             <a href="bookshelf.html">Bookshelf</a>
         </div>
-        <p style="margin-top:10px;">お問い合わせは</p>
+        <p style="margin-top:10px;">PGHouseへの訪問や、</p>
+        <p>勉強会等のご利用に関するお問い合わせは</p>
         <p><a href="https://www.facebook.com/pghousegotokuji">PGHouse豪徳寺のFacebookページ</a>にて受け付けております</p>
         <p>メッセージ機能にてお問い合わせ内容をお伝えください</p>
     </div>
