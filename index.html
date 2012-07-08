@@ -21,17 +21,33 @@
     })();
     </script>
 
+    <script>
+    $(function(){
+
+    });
+    </script>
+
 </head>
 <body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1&appId=134474456690922";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div id="header">
-    <ul>
-        <li>
-            <img src="img/photo_001.png" widht="480" height="360">
-            <h1><a href="index.html">PGHouse-Gotokuji.net</a></h1>
-            <h2><a href="index.html">〜プログラミングを学び合うシェアハウス〜</a></h2>
-            </a>
-        </li>
-        <li style="padding:auto;">
+    <h1>
+        <a href="index.html">PGHouse-Gotokuji.net 〜プログラミングを学び合うシェアハウス〜</a>
+    </h1>
+</div>
+<div id="content">
+    <div class="elem center left">
+        <img src="img/logos/pgh_top_001.png" widht="480" height="360">
+        <div class="page-contents-line">
             <a href="index.html">Home</a>｜
             <a href="member.html">Member</a>｜
             <a href="map.html">Map</a>｜
@@ -39,11 +55,32 @@
             <a href="event.html">Event</a>｜
             <a href="social.html">Social</a>｜
             <a href="bookshelf.html">Bookshelf</a>
-        </li>
-    </ul>
-</div>
-<div id="container">
+        </div>
+        <p style="margin-top:10px;">お問い合わせは</p>
+        <p><a href="https://www.facebook.com/pghousegotokuji">PGHouse豪徳寺のFacebookページ</a>にて受け付けております</p>
+        <p>メッセージ機能にてお問い合わせ内容をお伝えください</p>
+    </div>
+    <div class="elem right">
+        <h3>プレスリリース：</h3>
+        <div class="content-text">
+            <p>[2012年6月24日]</p>
+            <h4>PGHouse豪徳寺に12人のメンバー全員が揃う！ひゃっほい！\(^o^)/</h4>
+        </div>
+        <div class="content-text">
+            <p>[2012年6月20日]</p>
+            <h4>PGHouse豪徳寺がcareerhackに取り上げられました！：</h4>
+            <p>
+                <a href="http://careerhack.en-japan.com/report/detail/8">「生き方にあわせて、働き方を決める」―プログラマ限定シェアハウスで暮らす人々の選択。</a>
+            </p>
+        </div>
+        <div class="content-text">
+            <p>[2012年5月14日]</p>
+            <h4>PGHouse豪徳寺に入居開始！</h4>
+        </div>
 
+<div class="fb-like-box" data-href="https://www.facebook.com/pghousegotokuji" data-width="480" data-height="360" data-show-faces="true" data-stream="true" data-header="true"></div>
+
+    </div>
 </div>
 <div id="footer">
     <p class="footer">Copyright &copy; 2012 PGHouse-Gotokuji all rights reserved.</p>

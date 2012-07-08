@@ -1,17 +1,21 @@
 body {
-    background  : #1049a9;
-    color       : #fff;
+    background  : #fff;
+    color       : #052c6e;
     font-size   : 14px;
     font-family : Meiryo UI;
 }
 
 a {
     text-decoration : none;
-    color           : #00C6FF;
+    color           : #0000FF;
+}
+
+p {
+    margin : 3px;
 }
 
 a:hover {
-    color : #00ffff;
+    color : #00bf00;
 }
 
 ul {
@@ -19,7 +23,8 @@ ul {
 }
 
 li {
-    float : left;
+    float     : left;
+    font-size : 16px;
 }
 
 img {
@@ -27,9 +32,8 @@ img {
 }
 
 h1 {
-    font-size     : 30px;
-    color         : #fff;
-    padding       : 5px;
+    font-size     : 26px;
+    padding       : 5px 5px 5px 10px;
     margin        : 0px;
 }
 
@@ -38,13 +42,8 @@ h1 a {
     color           : #fff;
 }
 
-h1 a:hover {
-    color :00ffff;
-}
-
 h2 {
     font-size : 20px;
-    color     : #fff;
     padding   : 5px;
     margin    : 0px;
 }
@@ -54,39 +53,72 @@ h2 a {
     color           : #fff;
 }
 
-h2 a:hover {
-    color :00ffff;
+h3 {
+    font-size : 18px;
+    color : #fff;
+    margin : 10px 10px 0 0;
+    padding-left : 10px;
+    background : #01053a;
+    border-radius : 20px;
 }
 
-
+h4 {
+    font-size : 14px;
+    margin : 0;
+}
 
 /******************
  * original class *
  ******************/
+.left {
+    float : left;
+}
+
+.right {
+    float : right;
+}
+
+.center {
+    text-align : center;
+}
+
+.elem {
+    width : 500px;
+}
+
 #header {
-    width  : 1000px;
-    height : 600px;
-    margin : auto;
-    color         : #fff;
-    background    : #052c6e;
+    width         : 1000px;
+    height        : 49px;
+    margin        : 10px auto 10px auto;
+    background    : #01053a;
     border-radius : 20px;
 }
 
-#container {
-   text-align : center;
+#content {
+    width         : 1000px;
+    height        : 800px;
+    margin        : 0 auto 10px auto;
+    background    : #d0dddd;
+    border-radius : 20px;
 }
 
+.page-contents-line {
+    font-size : 16px;
+}
+
+.content-text {
+    padding : 10px;
+}
 
 #footer {
-
-}
-
-.footer {
     width         : 1000px;
     color         : #fff; 
     text-align    : center;
-    background    : #052c6e;
+    background    : #01053a;
+    margin        : auto;
     border-radius : 20px;
-    margin        : 10px auto;
+}
+
+.footer {
     padding       : 5px;
 }
